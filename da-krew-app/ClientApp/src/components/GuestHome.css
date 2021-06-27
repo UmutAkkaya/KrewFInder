@@ -1,0 +1,111 @@
+.background {
+    background-color: #3F4777;
+    position: absolute;
+    top: 64px;
+    bottom: 0px;
+    width:100%;
+    display: flex
+}
+
+.left {
+    flex: 2;
+    height: '20%';
+    margin: 10;
+    text-align: 'center';
+    padding: 10;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.right {
+    height: 600;
+    flex: 1.5;
+    margin: 10;
+    text-align: 'center';
+    padding-right: 5%;
+}
+
+.particles {
+    padding-top: 100px;
+    height: 400px;
+}
+
+.text {
+    color: #F5F5F5;
+    padding-top: 72px !important;
+    font-size: 40px !important;
+}
+
+.registerText {
+    margin-top: 5% !important;
+    color: #F5F5F5;
+}
+
+.registerButton {
+    margin-top: 1% !important;
+    font-size: 20px !important;
+    color: black;
+    background-color: #F3C14F;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border: #F3C14F;
+    border-style: solid;
+    display: inline-flex;
+}
+
+.registerButton:hover, .registerButton:active, .registerButton:focus {
+    text-decoration: none;
+    color: black !important;
+    background-color: rgb(240, 202, 114) !important;
+    border: rgb(240, 202, 114);
+    border-style: solid;
+}
+
+.registerButton:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.loginTextStatic, .loginTextStatic:active, .loginTextStatic:hover, .loginTextStatic:visited, .loginTextStatic:focus {
+    margin-left: 2.5% !important;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.loginText, .loginText:visited {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.loginText:active, .loginText:hover, .loginText:focus {
+    color: rgb(175, 175, 175) !important;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 641px) {
+    .text {
+        font-size: 35px !important;
+    }
+}
+
+@media only screen and (max-width: 579px) {
+    .text {
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    .text {
+        font-size: 30px !important;
+    }
+
+    .left {
+        display: none;
+    }
+
+    .right {
+        padding-left: 5% !important;
+    }
+}

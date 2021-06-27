@@ -1,0 +1,124 @@
+.root {
+    flexGrow: 1;
+}
+
+.flex {
+    flex: 1;
+}
+
+header {
+    box-shadow: none !important;
+}
+
+.menuButton {
+    marginLeft: -12;
+    marginRight: 20;
+}
+
+.link {
+    margin: 5px;
+}
+
+.title {
+    font-size: 30px !important;
+    color: #3F4777;
+}
+
+.title:hover, .title:active, .title:visited, .title:focus {
+    text-decoration: none;
+    color: #3F4777;
+}
+
+.default {
+    font-size: 20px !important;
+    color: #3F4777;
+}
+
+.default:hover, .default:active, .default:focus {
+    text-decoration: none;
+    color: rgb(111, 115, 134) !important;
+}
+
+.default:visited {
+    text-decoration: none;
+    color: #3F4777;
+}
+
+.register {
+    font-size: 20px !important;
+    color: black;
+    background-color: #F3C14F;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    margin-left: 15px !important;
+    border: #F3C14F;
+    border-style: solid;
+}
+
+.register:hover, .register:active, .register:focus {
+    text-decoration: none;
+    color: black !important;
+    background-color: rgb(240, 202, 114) !important;
+    border: rgb(240, 202, 114);
+    border-style: solid;
+}
+
+.register:visited {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    padding: 0px !important;
+}
+
+@media only screen and (max-width: 599px) {
+    header {
+        min-height: 64px !important;
+        padding-top: 4px !important;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .default {
+        font-size: 16px !important;
+    }
+
+    .register {
+        font-size: 16px !important;
+    }
+
+    .title {
+        font-size: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    .default {
+        font-size: 14px !important;
+    }
+
+    .register {
+        font-size: 14px !important;
+    }
+
+    .title {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 299px) {
+    .default {
+        font-size: 10px !important;
+    }
+
+    .register {
+        font-size: 10px !important;
+    }
+
+    .title {
+        font-size: 14px !important;
+    }
+}

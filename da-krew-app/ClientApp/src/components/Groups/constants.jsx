@@ -1,0 +1,19 @@
+module.exports = {
+    GROUP_INVITE_STATUS: {
+        INVITED: {VALUE: 0, STRING: 'INVITED'},
+        SENT: { VALUE: 1, STRING: 'SENT' },
+        REVOKED: { VALUE: 2, STRING: 'REVOKED' },
+        REJECTED: { VALUE: 3, STRING: 'REJECTED' },
+        ACCEPTED: { VALUE: 4, STRING: 'ACCEPTED' },
+        SUGGESTED: { VALUE: 5, STRING: 'SUGGESTED' },
+        UNKNOWN: { VALUE: 6, STRING: 'UNKNOWN' }
+    },
+    MEMBER_INVITE_STATUS: {
+        INVITED: { VALUE: 0, STRING: 'INVITED' },
+        REVOKED: { VALUE: 1, STRING: 'REVOKED' },
+        REJECTED: { VALUE: 2, STRING: 'REJECTED' },
+        ACCEPTED: { VALUE: 3, STRING: 'ACCEPTED' },
+        SUGGESTED: { VALUE: 4, STRING: 'SUGGESTED' },
+        UNKNOWN: { VALUE: 5, STRING: 'UNKNOWN' }
+    }
+};

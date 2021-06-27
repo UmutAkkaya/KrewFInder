@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+@media (min-width: 767px) {
+    /* Custom sketchy font size for desktop view */
+    body {
+        font-size: 1.5rem !important;
+    }
+
+    div {
+        font-size: 1.5rem !important;
+    }
+    
+    li {
+        font-size: 12px !important;
+    }
+
+    label {
+        font-size: 1.6rem !important;
+    }
+
+    td {
+        font-size: 1.3rem !important;
+    }
+
+    span {
+        font-size: 1.2rem !important;
+    }
+
+    h3 {
+        font-size: 1.6rem !important;
+    }
+
+    textarea {
+        font-size: 1.4rem !important;
+    }
+
+    .material-icons {
+        font-size: 2rem !important;
+    }
+}
+
+html {
+    background: #eeeeee;
+}

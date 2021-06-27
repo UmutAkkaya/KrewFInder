@@ -1,0 +1,102 @@
+.background {
+  background-color: #3F4777;
+  position: absolute;
+  height: 110%;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  z-index: -99999;
+}
+
+.showError {
+  text-align: center;
+  color: #ff0000;
+  font-size: 8px;
+  font-style: italic;
+  display: inline;
+}
+
+.Register {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px !important;
+}
+
+Form * {
+  font-size: 16px !important;
+}
+
+Form {
+  height: fit-content;
+}
+
+.registerForm {
+  position: relative;
+  background-color: #F5F5F5;
+  margin: 0;
+  height: fit-content;
+}
+
+.has-error .MuiInput-root-170 {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.has-error .MuiFormLabel-focused-165 {
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.has-error .MuiInput-underline-174:after {
+  background-color: rgba(255, 0, 0, 0.5) !important;
+}
+
+.has-error .MuiInput-underline-174:hover:not(.MuiInput-disabled-173):before {
+  background-color: rgba(255, 0, 0, 0.5) !important;
+}
+
+Button {
+  display: table-cell !important;
+  vertical-align: middle !important;
+  margin: auto !important;
+  text-align: center !important;
+}
+
+@media only screen and (max-width: 699px) {
+  Form * {
+    font-size: 16px !important;
+    margin-bottom: 10px;
+  }
+  Form {
+    padding: 50px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  Form * {
+    font-size: 14px !important;
+    margin-bottom: 10px;
+  }
+  Form {
+    padding: 25px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  Form * {
+    font-size: 12px !important;
+    margin-bottom: 5px;
+  }
+  Form {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 249px) {
+  Form * {
+    font-size: 10px !important;
+    margin-bottom: 5px;
+  }
+  Form {
+    padding: 15px;
+  }
+}

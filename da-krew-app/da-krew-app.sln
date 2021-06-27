@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "da-krew-app", "da-krew-app.csproj", "{6573609E-18E1-4319-BE66-D6FA8D0E0F1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6573609E-18E1-4319-BE66-D6FA8D0E0F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6573609E-18E1-4319-BE66-D6FA8D0E0F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6573609E-18E1-4319-BE66-D6FA8D0E0F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6573609E-18E1-4319-BE66-D6FA8D0E0F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E385764-0C31-473A-9983-5F2298C8B1C7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="7.5.2" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\libraries\AspCoreTools\AspCoreTools.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\contracts\GroupService.Contracts\GroupService.Contracts.csproj">
+      <Project>{A3FD35C6-FF85-4A88-B99D-5362118AFB1F}</Project>
+      <Name>GroupService.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libraries\AspCoreTools\AspCoreTools.csproj" />
+    <ProjectReference Include="..\..\libraries\DatabaseLayer\DatabaseLayer.csproj">
+      <Project>{92C51BF0-A06F-445F-B4CB-F7B2BF9D55EB}</Project>
+      <Name>DatabaseLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
